@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -24,7 +25,15 @@ body{
     padding: 30px 40px;
     align-text: center;
 }
-
+#companyname{
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    font-size: 58px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
 .input{
     background-color: white;
     padding: 25px 20px 10px 20px;
@@ -85,7 +94,9 @@ input{
 }
 
 @media (max-width:600px){
-    
+    #companyname{
+        font-size: 50px;
+    }
     .container{
         padding: 15px;
         width: 80%;
@@ -134,3 +145,8 @@ input{
     }
     
 }
+/* @media (max-height: 770px){
+    #companyname{
+        
+    }
+} */
