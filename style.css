@@ -23,7 +23,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%) ;
     padding: 30px 40px;
-    align-text: center;
 }
 #companyname{
     position: absolute;
@@ -79,7 +78,7 @@ input{
     font-size: 140%;
     font-weight: 500;
     padding: 7px 10px;
-    font-weight: 400%;
+    font-weight: 500;
     background-color: white;
     color: #800080;
     border-radius: 3px;
@@ -114,17 +113,16 @@ input{
    
     .username{
         font-size: 80%;
-        font-weight: 400%;
+        font-weight: 500;
         margin-bottom: 30px;
         margin-top: -15px;
-        padding: -20px;  
+        
     }
     .password{
         font-size: 80%;
-        font-weight: 400%;
+        font-weight: 500;
         margin-bottom: 30px;
         margin-top: -5px;
-        padding: -20px;  
         
     }
     .btn{
@@ -143,10 +141,23 @@ input{
     .input a{
         font-size: 85%;
     }
-    
 }
-/* @media (max-height: 770px){
+@media (max-height: 700px){
     #companyname{
-        
+        top:15%;
     }
-} */
+}
+@media (max-height: 600px){
+    #companyname{
+        top:10%;
+        font-size: 250%;
+    }
+}
+@media (max-height: 400px){
+    #companyname{
+        top:5%;
+        font-size: 300%;
+    }
+}
+
+
