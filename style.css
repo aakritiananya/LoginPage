@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        135deg, 
+        #620080,
+        magenta
+    );
+}
+.container{
+    border: 3px solid white;
+    width: 550px;
+    /* height: 300px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    padding: 30px 40px;
+    align-text: center;
+}
+
+.input{
+    background-color: white;
+    padding: 25px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px grey;
+}
+.username{
+    height: 30px;
+    margin-bottom: 15px;
+    color: #800080;
+    
+}
+.password{
+        height: 30px;
+        margin-bottom: 15px;
+        color: #800080;
+        margin-bottom: 25px;
+}
+span#username{
+    font-size: 140%;
+    padding: 5px;
+    padding-bottom: 20px;
+    
+}
+span#password{
+    font-size: 140%;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+input{
+    height: 100%;
+    font-size: 120%;
+    padding: 10px;
+    /* margin-right: 50px; */
+}
+.btn1{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px 0 20px 0;
+    font-size: 140%;
+    font-style: bold;
+    padding: 7px 10px;
+    font-weight: 400%;
+    background-color: white;
+    color: #800080;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px grey;
+}
+.container2{
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px grey;
+    font-size: 110%;
+}
+
